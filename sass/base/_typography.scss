@@ -1,0 +1,55 @@
+body{
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	font-size: 1rem;
+	line-height: 1.7;
+	color:#777;
+	padding:2rem;
+	
+}
+/******************************/
+/*main-text*/
+/******************************/
+.header__main-text{
+	color:#fff;
+	text-transform: uppercase;
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    backface-visibility: hidden;
+    /*backpart is visible or hidden backpart behind element is hidden*/
+
+    text-align: center;
+	
+
+}
+
+.text-primary{
+	letter-spacing: 15;
+	font-weight: 500;
+	font-size: 3rem;
+
+	animation-name: moveLeft;
+	animation-duration: 3s;
+	/*animation-delay: 0.3s;*/
+	/*animation-iteration-count: 2;*/
+	animation-timing-function: ease-out;
+
+
+}
+
+.text-secondary{
+	font-weight: 100;
+	letter-spacing: 8.0;
+	word-spacing: 2.5;
+	font-size: 1rem;
+	margin-left: 0.7rem;
+
+	animation-name: moveRight;
+	animation-duration: 3s;
+	animation-timing-function: ease-out;
+
+	margin-bottom: 5rem;
+}
